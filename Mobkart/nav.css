@@ -1,0 +1,197 @@
+.dgs-navbar {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: rgb(105, 132, 116);
+    color: rgb(252, 248, 243);
+    height: 70px;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.navbar-dgs a {
+    font-size: 25px;
+}
+
+.nav-logo img {
+    height: 70px;
+    width: 170%;
+    margin-bottom:5px;
+    margin-left:30%;
+}
+
+.navprofile img:hover{
+    scale:1.1;
+}
+
+.navbar-dir{
+    display:flex;
+    gap:30%;
+    margin-left:10%;
+}
+
+
+.navbar-links {
+    list-style: none;
+    display: flex;
+    padding: 0;
+}
+
+
+.linkhome{
+    margin-top:10%;
+    font-size:25px;
+}
+
+.linkhome a{
+    color:white;
+    text-decoration:none;
+}
+
+.linkhome a:hover{
+    color:rgb(255, 170, 165);
+    text-decoration:none;
+}
+
+
+.final-actions {
+    width: 30%;
+    display: flex;
+    align-items: center;
+    margin-left: 20%;
+    gap:2%;
+    margin-top:1%;
+}
+
+.final-actions a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    display: flex;
+}
+
+.cart-container {
+    position: relative;
+    margin-left:5%;
+    margin-top:10%;
+}
+
+.cart img {
+    width: 40px;
+    height: 40px;
+}
+
+.cart-container:hover {
+    transform: scale(1.2);
+}
+
+.cart-number {
+    position: absolute;
+    top: -5px;
+    right: 3px;
+    color: white;
+    border-radius: 50%;
+    padding: 2px 6px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.final-prop{
+    display:flex;
+    gap:90%;
+    margin-left:10%; 
+    margin-top:1%;
+    
+}
+
+
+.navprofile img {
+    height: 50px;
+    width: 50px;
+    border-radius: 40px;
+    margin-left:40%;
+    margin-bottom:30%;
+}
+
+.final-actions .hello,
+.final-actions .user {
+    font-size: 25px;
+    margin-bottom:10px;
+}
+
+
+.final-actions .hello:hover,
+.final-actions .user:hover,
+.navbar-links a:hover {
+    color: rgb(255, 170, 165);
+    transform: scale(1.1);
+}
+
+.navbar .navbar-logo img:hover,
+.navbar-actions .cart img:hover,
+.navbar-actions .profile img:hover {
+    transform: scale(1.1);
+}
+
+.footer {
+    background-color: rgba(105, 132, 116, 0.736);
+    color: #f4f0ed;
+    padding: 50px 0;
+    font-weight:bold;
+    font-size: 150%;
+    justify-content:center;
+}
+
+.footer-container {
+    margin-left:10%;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+.footer-content {
+    flex: 1;
+    margin: 0 20px;
+}
+
+.footer-content a{
+    color: rgb(255, 211, 182);
+    text-decoration:none;
+}
+
+.footer-content a:hover{
+    color:rgb(227, 15, 142);
+    text-decoration: none;
+}
+
+.footer-content h3 {
+    margin-bottom: 10px;
+}
+
+.footer-content p {
+    margin: 5px 0;
+}
+
+.footer-content ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-content ul li {
+    margin-bottom: 5px;
+}
+
+.footer-content ul li a {
+    color: rgb(255, 211, 182);
+    text-decoration:none;
+}
+
+.footer-content ul li a:hover {
+    color:rgb(227, 15, 142);
+    text-decoration: none;
+}
+
+.footer center p{
+    color:rgb(255, 211, 182);
+}
